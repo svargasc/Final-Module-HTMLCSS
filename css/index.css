@@ -1,0 +1,328 @@
+body{
+    width: 100%;
+    background: #000000;
+    margin: 0;
+    color: rgb(202, 197, 197);
+    font-family: sans-serif;
+}
+header nav{
+    background: #310606;
+    width: 100%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 22px;
+    box-shadow: 5px 5px 10px rgb(120, 11, 11);
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding: 1%;
+    list-style: none;
+    text-transform: uppercase;
+}
+ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li:hover{
+    color: #ffffff;
+    font-size: 26px;
+    list-style: url(../images/skull.png);
+}
+ul li.listA{
+    color: #ffffff;
+    font-size: 24px;
+    list-style: url(../images/skull.png);
+    padding: 0;
+}
+div{
+    width: 100%;
+    text-align: center;
+}
+video{
+    width: 50%;
+    box-shadow: 1px 1px 10px 10px rgb(120, 11, 11);
+    margin-bottom: 2%;
+}
+/* Class */
+.navItems{
+    width: 500px;
+    margin-left: 35%;
+    margin-bottom: 4%;
+}
+.navItems ul{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    list-style: url(../images/skull.png);
+    margin-bottom: 4%;
+}
+.sectionImageRight{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sectionImageRight h1{
+    text-align: center;
+    width: 100%;
+    margin: 1%;
+}
+.sectionImageLeft{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sectionImageLeft h1{
+    text-align: center;
+    width: 100%;
+    margin: 1%;
+}
+.content1S1,.content2S1{
+    width: 50%;
+}
+.content1S1 p{
+    margin-left: 6%;
+    width: 90%;
+    padding: 1%;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: rgb(233, 238, 243);
+}
+.content2S1 img{
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: 1px 5px 10px 10px rgb(120, 11, 11);
+}
+.content2S1 ul{
+    text-align: start;
+    width: 50%;
+    padding: 0;
+    margin-left: 25%;
+    list-style: url(../images/skull.png);
+    font-size: 22px;
+}
+.content1S2,.content2S2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.content1S2 img{
+    width: 60%;
+    margin-left: 8%;
+    box-shadow: 1px 5px 10px 10px rgb(120, 11, 11);
+}
+.content2S2 p{
+    width: 90%;
+    padding: 1%;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: rgb(233, 238, 243);
+    font-size: 16px;
+}
+.content2S2 ul{
+    text-align: start;
+    width: 90%;
+    padding: 0;
+    list-style: url(../images/skull.png);
+    font-size: 22px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(36, 6, 6);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+footer .finalList{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+footer p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+.finalList ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: end;
+    width: 100%;
+    list-style: none;
+}
+.finalList ul li{
+    padding-left: 8%;
+}
+.finalList ul li:hover{
+    list-style: none;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 576px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul{
+        width: 100%;
+        display: flex;
+        margin: 0;
+        list-style: none;
+        text-transform: uppercase;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    a:hover{
+        color: #ffffff;
+        font-size: 18px;
+        list-style: none;
+        padding: 0;
+    }
+    ul li.listA{
+        color: #ffffff;
+        font-size: 24px;
+        list-style: none;
+        padding: 0;
+        list-style: url(../images/skull.png);
+    }
+    video{
+        width: 90%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+        padding: 0;
+    }
+    .navItems{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 4%;
+    }
+    .navItems ul{
+        text-align: start;
+        display: block;
+    }
+    .sectionImageRight{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .sectionImageLeft{
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .content1S1,.content2S1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .content1S2,.content2S2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .sectionImageRight,.sectionImageLeft{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .sectionImageRight h1,.sectionImageLeft h1{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 8%;
+        margin-top: 8%;
+    }
+    .content1S1 p, .content2S2 p{
+        margin: 0;
+        margin-bottom: 8%;
+        width: 90%;
+        margin-left: 5%;
+        padding-left: 8px;
+        padding-right: 8px;
+        line-height: 40px;
+        font-size: 18px;
+        text-align: start;
+    }
+    .content1S2 img, .content2S1 img{
+        margin: 0;
+        margin-bottom: 8%;
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .content2S1 ul.Ul1, .content2S1 ul.Ul2{
+        display: flex;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .content2S2 ul.Ul1, .content2S2 ul.Ul2{
+        display: flex;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    .content2S1 ul.Ul1, .content2S2 ul.Ul1{
+        margin: 0;
+        width: 100%;
+        line-height: 50px;
+    }
+    .content2S1 ul.Ul2, .content2S2 ul.Ul2{
+        margin: 0;
+        width: 100%;
+        line-height: 50px;
+    }
+    ul.Ul1 li, ul.Ul2 li{
+        font-size: 14px;
+        margin-left: 12%;
+        width: 100%;
+        list-style: url(../images/skull.png);
+    }
+    footer p{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin: 0;
+        font-size: 12px;
+    }
+    .finalList ul li:hover{
+        list-style: none;
+        font-size: 14px;
+    }
+}
