@@ -40,6 +40,8 @@ div{
 p{
     width: 80%;
     margin-left: 10%;
+    line-height: 30px;
+    text-align: start;
 }
 img#firtsImage{
     width: 40%;
