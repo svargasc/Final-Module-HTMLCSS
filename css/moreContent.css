@@ -1,0 +1,192 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    margin: 0;
+    color: rgb(202, 197, 197);
+    font-family: sans-serif;
+}
+header,nav {
+    background: #310606;
+    width: 100%;
+    margin-bottom: 1%;
+    font-weight: 900;
+    font-size: 22px;
+    box-shadow: 5px 5px 10px rgb(120, 11, 11);
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1%;
+    list-style: none;
+    text-transform: uppercase;
+}
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+nav li:hover {
+    color: #ffffff;
+    font-size: 26px;
+    list-style: url(../images/skull.png);
+}
+div{
+    width: 100%;
+    text-align: center;
+}
+p{
+    width: 80%;
+    margin-left: 10%;
+    line-height: 30px;
+    text-align: start;
+}
+img#firtsImage{
+    width: 40%;
+    box-shadow: 1px 5px 10px 10px rgb(120, 11, 11);
+}
+table {
+    border: solid 2px;
+    width: 90%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    margin-left: 5%;
+    font-size: 16px;
+}
+th, td {
+    padding: 4px;
+    border: 1px solid #ddd;
+    background: #310606;
+}
+tbody td:hover{
+    background-color: #5e2121;
+}
+th {
+    background: #4c0a0a;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(36, 6, 6);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+footer .finalList{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 0;
+    margin: 0;
+}
+footer p{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0;
+}
+.finalList ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: end;
+    width: 100%;
+    list-style: none;
+}
+.finalList ul li{
+    padding-left: 8%;
+}
+.finalList ul li:hover{
+    list-style: none;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 576px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul{
+        width: 100%;
+        display: flex;
+        margin: 0;
+        list-style: none;
+        text-transform: uppercase;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    a:hover{
+        color: #ffffff;
+        font-size: 18px;
+        list-style: none;
+        padding: 0;
+    }
+    div{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        width: 90%;
+        text-align: start;
+        margin: 0;
+        margin-left: 5%;
+        padding: 0;
+        margin-top: 5%;
+    }
+    table{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    th, td {
+        margin: 0;
+        padding: 0;
+    }
+    ul li{
+        margin-left: 8%;
+        padding: 0;
+    }
+    img#firtsImage{
+        width: 90%;
+        padding: 0;
+        margin: 0;
+        margin-top: 5%;
+    }footer p{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin: 0;
+        font-size: 12px;
+    }
+    .finalList ul li:hover{
+        list-style: none;
+        font-size: 14px;
+    }
+}
